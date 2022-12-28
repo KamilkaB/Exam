@@ -1,0 +1,1130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+body {
+    margin: 22px 90px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.BackImage1 {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    z-index: -1;
+    width: 33%;
+    height: 160%;
+}
+
+.BackImage2 {
+    position: absolute;
+    width: 680px;
+    height: 540px;
+    left: 540px;
+    top: -30px;
+    z-index: -1;
+}
+
+.BackImage3 {
+    position: absolute;
+    width: 550px;
+    height: 340px;
+    left: 600px;
+    top: 10px;
+    z-index: -1;
+}
+
+.BackImage4 {
+    position: absolute;
+    left: 0px;
+    top: 900px;
+    width: 25%;
+    height: auto;
+    z-index: -1;
+}
+
+.BackImage5 {
+    position: absolute;
+    left: 0px;
+    top: 1200px;
+    width: 22%;
+    height: auto;
+    z-index: 1;
+}
+
+.HeadBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.HeadBlock1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: auto;
+    width: 260px;
+}
+
+.HeadBlock1 img {
+    width: 80%;
+    height: auto;
+}
+
+.HeadBlock2 {
+    margin: 12px;
+}
+
+.HeadBlock2Items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 12px;
+}
+
+.HeadBlock2Items h2 {
+    padding: 0 50px;
+    cursor: pointer;
+}
+
+.HeadBlock3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HeadBlock3Items {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.HeadBlock3 button {
+    outline: none;
+    background-color: rgba(28, 28, 28, 0);
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 24px;
+}
+
+.HeadBlock3 button img {
+    width: 25px;
+    height: 24px;
+}
+
+.Dots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 20px;
+    margin: 100px 0px 12px auto;
+    margin-left: auto;
+}
+
+.Dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.Dot:hover {
+    background-color: #40241D;
+}
+
+.FirstBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    height: auto;
+}
+
+.FirstBlock h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.FirstBlock-Text {
+    width: 600px;
+    overflow: hidden;
+}
+
+.FirstBlock p {
+    display: inline;
+    font-weight: 1000;
+}
+
+.FirstBlock-Text>h2:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+.FirstBlock-Text>h2:nth-child(2) {
+    padding-bottom: 60px;
+}
+
+.FirstBlock-Text button {
+    width: 300px;
+    height: 60px;
+    background-color: #F9B300;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 270px;
+    border-radius: 5px;
+}
+
+.SecondBlock {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+}
+
+.SecondBlock h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 62px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.SecondBlock-fblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SecondBlock-fblock div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 280px;
+    height: 339px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.img-inblock {
+    position: absolute;
+    padding-top: 30px;
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+    top: 0;
+}
+
+.button-inblock {
+    display: none;
+    width: 220px;
+    height: 40px;
+    background-color: #F9B300;
+    color: #FFFFFF;
+    border-style: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.h3-inblock {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    top: 200px;
+    transition: 1s;
+}
+
+.SecondBlock-fblock div:hover .button-inblock {
+    position: absolute;
+    bottom: 50px;
+    display: block;
+}
+
+.SecondBlock-fblock div:hover .img-inblock {
+    position: absolute;
+    transition: 0.5s;
+    top: -60px;
+}
+
+.SecondBlock-fblock div:hover .h3-inblock {
+    transition: 0.5s;
+    top: 140px;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.ThirdBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 1250px;
+}
+
+.ThirdBlock-Head {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+.ThirdBlock-Head h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 62px;
+    padding-bottom: 30px;
+}
+
+.ThirdBlock-Head h3 {
+    text-indent: 100px;
+    padding-left: 320px;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.ThirdBlock-Center {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.ThirdBlock-Center button {
+    width: 50px;
+    height: 50px;
+    background-color: #F9B300;
+    border-radius: 50%;
+    border-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.ThirdBlock-Asorti {
+    width: 300px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(146, 146, 146, 0.25);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.gg-arrow-long-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    box-shadow: inset 0 0 0 2px;
+    height: 15px;
+    width: 5px;
+    left: 24px;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+}
+
+#button1 {
+    margin-right: 35px;
+}
+
+#button2 {
+    margin-left: 35px;
+}
+
+#button2 i {
+    transform: rotate(-90deg);
+}
+
+.ThirdBlock-Asorti-Head {
+    display: flex;
+    flex-direction: row;
+}
+
+.ThirdBlock-Asorti-Head-First {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+
+.ThirdBlock-Asorti-Head-First img {
+    width: 140px;
+    height: 230px;
+    margin: 60px 0 0 15px;
+}
+
+.ThirdBlock-Asorti-Head-First h2 {
+    font-size: 12px;
+    color: #F9B300;
+    position: absolute;
+    top: 40px;
+    right: 88px;
+}
+
+.ThirdBlock-Asorti-Head-Second {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    text-align: center;
+    padding: 5px;
+    text-align: start;
+}
+
+.ThirdBlock-Asorti-Head-Second ul i {
+    display: inline;
+    margin: 15px;
+}
+
+.ThirdBlock-Asorti-Head-Second ul {
+    width: 100px;
+    height: 25px;
+    background: #FFF7E1;
+    border: 1px solid #F9B300;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px 3px 3px 10px;
+    margin: 10px 5px 40px 0;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.ThirdBlock-Asorti-Head-Second img:nth-child(2) {
+    width: 100px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.ThirdBlock-Asorti-Head-Second img:nth-child(4) {
+    width: 100px;
+    height: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.ThirdBlock-Asorti-Head-Second img:nth-child(6) {
+    width: 110px;
+    height: 8px;
+}
+
+.ThirdBlock-Asorti-Head-Second img:nth-child(8) {
+    width: 110px;
+    height: 8px;
+}
+
+.ThirdBlock-Asorti-Head-Second img:nth-child(10) {
+    width: 110px;
+    height: 8px;
+}
+
+.ThirdBlock-Asorti-Head-Second h2,
+p {
+    font-size: 15px;
+    display: inline;
+}
+
+.ThirdBlock-Asorti-Head-Second p {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.ThirdBlock-Asorti-Head-Second h3 {
+    font-size: 12px;
+    text-align: start;
+    font-weight: 500;
+    margin: 8px 0 10px 0;
+}
+
+.ThirdBlock-Asorti-Bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.ThirdBlock-Asorti-Bottom-First {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.ThirdBlock-Asorti-Bottom-First h1 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ThirdBlock-Asorti-Bottom-First h3 {
+    font-size: 13px;
+    font-weight: 600;
+    width: 230px;
+    text-align: start;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ThirdBlock-Asorti-Bottom-Second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 35px 25px;
+}
+
+.ThirdBlock-Asorti-Bottom-Second h1 {
+    font-size: 35px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+.ThirdBlock-Asorti-Bottom-Second h2 {
+    position: absolute;
+    top: 15px;
+    color: #C6C6C6;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ThirdBlock-Asorti-Bottom-Second::before {
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    background-color: #C6C6C6;
+    height: 2px;
+    top: 25px;
+}
+
+.ThirdBlock-Asorti-Bottom-Second button {
+    width: 130px;
+    height: 38px;
+    background: #F9B300;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.Sale {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F9B300;
+    border-radius: 50%;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 800;
+    top: -25px;
+    left: 40px;
+    padding-top: 8px;
+}
+
+.Center-Bottom {
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.FourBlock {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 570px;
+    position: relative;
+}
+
+.FourBlock-Head {
+    margin-bottom: 50px;
+}
+
+.FourBlock-Head h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.FourBlock-Bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.FourBlock-Bottom-Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin: 18px 0;
+    height: 300px;
+}
+
+.FourBlock-Bottom-Left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F9B300;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.FourBlock-Bottom-Left div:nth-child(1) {
+    padding-left: 4px;
+}
+
+.FourBlock-Bottom-Left div:nth-child(3) {
+    padding-left: 6px;
+}
+
+.FourBlock-Bottom-Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+
+.FourBlock-Bottom-Right-Inside {
+    margin: 15px 0;
+    width: 330px;
+}
+
+.FourBlock-Bottom-Right-Inside h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.FourBlock-Bottom-Right-Inside h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.BackImage6 {
+    position: absolute;
+    top: 200px;
+    left: -600px;
+    width: 400px;
+    z-index: 2;
+}
+
+.BackImage7 {
+    position: absolute;
+    top: 100px;
+    left: -590px;
+    width: 500px;
+    z-index: 1;
+}
+
+.BackImage8 {
+    position: absolute;
+    top: -115px;
+    right: -234px;
+    width: 1564px;
+    z-index: -1;
+}
+
+.BackImage9 {
+    position: absolute;
+    top: 120px;
+    left: -850px;
+    width: 1564px;
+    z-index: -1;
+}
+
+.BackImage10 {
+    position: absolute;
+    top: 643px;
+    left: -850px;
+    width: 1564px;
+    z-index: -2;
+}
+
+.BackImage11 {
+    position: absolute;
+    top: 220px;
+    left: -850px;
+    width: 1564px;
+    z-index: -2;
+}
+
+.FiveBlock {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    margin-top: 250px;
+    position: relative;
+}
+
+.FiveBlock h1 {
+    color: #FFFFFF;
+    font-weight: 800;
+    padding-bottom: 80px;
+}
+
+.FiveBlock h3 {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    width: 1100px;
+    padding-bottom: 40px;
+    text-align: start;
+}
+
+.FiveBlock button {
+    width: 300px;
+    height: 60px;
+    background-color: #F9B300;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 270px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.BackImage12 {
+    position: absolute;
+    top: 400px;
+    left: -180px;
+    width: 1564px;
+    height: 310px;
+    z-index: -1;
+}
+
+.SixBlock {
+    display: flex;
+    flex-direction: column;
+    width: 1249px;
+    position: relative;
+}
+
+.SixBlock-Head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SixBlock-Head h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.SixBlock-Head div {
+    padding-top: 18px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.SixBlock-Bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.SixBlock-Bottom-Block {
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    height: 285px;
+    margin-bottom: 30px;
+}
+
+.SixBlock-Bottom-Block-Photo {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.SixBlock-Bottom-Block-Photo img {
+    width: 30%;
+}
+
+.SixBlock-Bottom-Block-Photo div {
+    padding: 30px 60px;
+}
+
+.SixBlock-Bottom-Block-Photo div h2 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 22px;
+}
+
+.SixBlock-Bottom-Block-Photo div h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 22px;
+}
+
+.SixBlock-Bottom-Block-Photo div button {
+    font-size: 14px;
+    color: #F9B300;
+    border-style: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.SixBlock-Bottom-Block-Text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 50px 80px;
+    background-color: #FFFFFF;
+}
+
+.SixBlock-Bottom-Block-Text h2 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 22px;
+}
+
+.SixBlock-Bottom-Block-Text h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 22px;
+}
+
+.SixBlock-Bottom-Block-Text button {
+    font-size: 14px;
+    color: #F9B300;
+    border-style: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.SixBlock-Bottom-Block-Text:nth-child(1) {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.BackImage13 {
+    position: absolute;
+    top: 100px;
+    right: -135px;
+    width: 1564px;
+    z-index: -1;
+}
+
+.BackImage14 {
+    position: absolute;
+    top: 335px;
+    right: -135px;
+    width: 1564px;
+    height: 800px;
+    z-index: -1;
+}
+
+
+.SevenBlock {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    position: relative;
+}
+
+.SevenBlock-Head {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.SevenBlock-Head h1 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 57px
+}
+
+.SevenBlock-Head button {
+    width: 60px;
+    height: 60px;
+    background-color: #F9B300;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.SevenBlock-Bottom {
+    position: relative;
+}
+
+.BackImage15 {
+    position: absolute;
+    top: 15px;
+    left: -140px;
+    z-index: -1;
+    width: 800px;
+}
+
+.BackImage16 {
+    position: absolute;
+    top: 170px;
+    left: -120px;
+    width: 800px;
+    z-index: -1;
+}
+
+.SevenBlock-Head-Right {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 450px;
+    left: 600px;
+    top: 200px;
+}
+
+.SevenBlock-Head-Right-Block {
+    width: 270px;
+    height: 270px;
+    background-color: #E9E9E9;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.SevenBlock-Head-Right::before {
+    content: ' ';
+    position: absolute;
+    width: 195px;
+    height: 270px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    top: 9px;
+    right: -184px;
+}
+
+.SevenBlock-Head-Right::after {
+    content: ' ';
+    position: absolute;
+    width: 195px;
+    height: 270px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    top: 300px;
+    right: -184px;
+}
+
+.SevenBlock-Head-Right::before {
+    content: ' ';
+    position: absolute;
+    width: 195px;
+    height: 270px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    top: 9px;
+    right: -184px;
+}
+
+
+
+.BackImage17 {
+    position: absolute;
+    top: 175px;
+    width: 1564px;
+    height: 600px;
+    left: -780px;
+    z-index: -2;
+}
+
+.SevenBlock-Head-Right button {
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #F9B300;
+    border-radius: 50%;
+    border-style: none;
+    top: 270px;
+    right: -150px;
+    width: 40px;
+    height: 40px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.BackImage18 {
+    position: absolute;
+    top: 775px;
+    right: -184px;
+    z-index: -2;
+    width: 1564px;
+}
+
+
+
+.EightBlock {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1250px;
+    margin-top: 1000px;
+    height: 500px;
+}
+
+.EightBlock div {
+    width: 1000px;
+}
+
+.EightBlock h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.EightBlock h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.EightBlock input {
+    width: 600px;
+    height: 50px;
+    background: #F3F3F3;
+    border-radius: 40px;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 200;
+    border-style: none;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.EightBlock button {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    background-color: #F9B300;
+    border-radius: 40px;
+    border-style: none;
+    color: #FFFFFF;
+    left: 560px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.EightBlock h3 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.EightBlock p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #F9B300;
+    cursor: pointer;
+}
+
+.BackImage19 {
+    position: absolute;
+    top: -370px;
+    left: 680px;
+    z-index: -1;
+    width: 700px;
+}
+
+.BackImage20 {
+    position: absolute;
+    width: 650px;
+    left: 734px;
+    top: -270px;
+    z-index: -1;
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    align-items: center;
+}
+
+.Bottom-Right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Bottom-Left img {
+    width: 220px;
+}
+
+.Bottom-Right div {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
